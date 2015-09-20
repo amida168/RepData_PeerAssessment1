@@ -136,6 +136,7 @@ median(act_bydate2$steps)
 ```
 ## [1] 10766.19
 ```
+The mean for the total number of steps taken per day is the same while the median has changed.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 1. Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
@@ -158,3 +159,5 @@ print(p4)
 ```
 
 ![](PA1_template_files/figure-html/5-2-1.png) 
+
+The activity patterns are different. On weekends, the person observed gets up later. The maximum number of steps is lower while the steps take during the day are higher.
